@@ -20,6 +20,8 @@ export default function App() {
     setIsAddMode(false);
   };
 
+  const foobar = 'Chump';
+
   const removeThoughtHandler = thoughtId => {
     console.log('To Be Deleted: ' + thoughtId);
 
